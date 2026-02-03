@@ -1,0 +1,110 @@
+.page {
+  min-height: 100vh;
+  background: #fff;
+}
+
+.main {
+  padding: 2rem 1rem 3rem;
+  background: #fff;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.top {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin: 0 0 1rem;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 900;
+  color: #111;
+  letter-spacing: -0.02em;
+}
+
+.searchBar {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  outline: none;
+  font-size: 1rem;
+}
+
+.input:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+
+.btn {
+  padding: 0.85rem 1.2rem;
+  border-radius: 12px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #222;
+}
+
+.meta {
+  margin: 0.75rem 0 0;
+  color: #666;
+  font-weight: 600;
+}
+
+.empty {
+  background: #f8f8f8;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.emptyTitle {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #111;
+}
+
+.emptyText {
+  margin: 0 0 1rem;
+  color: #666;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.emptyBtn {
+  display: inline-block;
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  padding: 0.85rem 1.2rem;
+  border-radius: 12px;
+  font-weight: 900;
+}
+
+.emptyBtn:hover {
+  background: #222;
+}
+
+@media (max-width: 520px) {
+  .searchBar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
