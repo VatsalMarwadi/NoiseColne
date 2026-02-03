@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getCurrentUser, signOut } from '../../utils/auth';
-import Header from '../../components/common/Header/Header';
+import Header from '../../components/Header/Header';
 import styles from './Profile.module.css';
-import Footer from '../../components/common/Footer/Footer';
+import Footer from '../../components/Footer/Footer';
 
 export default function Profile() {
   const navigate = useNavigate();

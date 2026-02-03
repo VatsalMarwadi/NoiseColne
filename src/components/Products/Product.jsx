@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Product.module.css';
-import { addToCart } from '../../../utils/cart';
-import { PRODUCTS } from '../../../data/products';
+import { addToCart } from '../../utils/cart';
+import { PRODUCTS } from '../../data/products';
 
 
 const Product = ({ title = 'Featured Products', subtitle }) => {

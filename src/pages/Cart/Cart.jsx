@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import Header from "../../components/common/Header/Header";
-import Footer from "../../components/common/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import styles from "./Cart.module.css";
 import {
   clearCart,

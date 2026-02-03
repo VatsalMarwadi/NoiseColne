@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { saveUser } from '../../utils/auth';
-import Header from '../../components/common/Header/Header';
+import Header from '../../components/Header/Header';
 import styles from './SignUp.module.css';
 
 export default function SignUp() {

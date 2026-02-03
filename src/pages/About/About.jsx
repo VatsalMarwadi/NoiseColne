@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../../components/common/Header/Header";
-import AboutSection from "../../components/common/About/About";
-import Footer from "../../components/common/Footer/Footer";
+import Header from "../../components/Header/Header";
+import AboutSection from "../../components/About/About";
+import Footer from "../../components/Footer/Footer";
 
 export default function About() {
   return (

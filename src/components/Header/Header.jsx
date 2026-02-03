@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { getCurrentUser } from "../../../utils/auth";
-import { getCartCount } from "../../../utils/cart";
-import { searchProducts } from "../../../data/products";
+import { getCurrentUser } from "../../utils/auth";
+import { getCartCount } from "../../utils/cart";
+import { searchProducts } from "../../data/products";
 import styles from "./Header.module.css";
 
 const Header = () => {

@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../../components/common/Header/Header'
-import Banner from '../../components/common/Banner/Banner'
-import Product from '../../components/common/Products/Product'
-import Footer from '../../components/common/Footer/Footer'
+import Header from '../../components/Header/Header'
+import Banner from '../../components/Banner/Banner'
+import Product from '../../components/Products/Product'
+import Footer from '../../components/Footer/Footer'
 
 export default function Home() {
   return (

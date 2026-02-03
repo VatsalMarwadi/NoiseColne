@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import Header from "../../components/common/Header/Header";
-import Footer from "../../components/common/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import styles from "./Search.module.css";
-import productStyles from "../../components/common/Products/Product.module.css";
+import productStyles from "../../components/Products/Product.module.css";
 import { addToCart } from "../../utils/cart";
 import { searchProducts } from "../../data/products";
 
